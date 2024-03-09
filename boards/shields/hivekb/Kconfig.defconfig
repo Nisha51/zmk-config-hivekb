@@ -1,0 +1,16 @@
+if SHIELD_HIVEKB_LEFT
+
+config ZMK_HIVEKB
+    default "HiveKB"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_HIVEKB_LEFT || SHIELD_HIVEKB_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
