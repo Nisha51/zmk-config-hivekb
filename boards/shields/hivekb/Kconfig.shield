@@ -1,0 +1,5 @@
+config SHIELD_HIVEKB_LEFT
+    def_bool $(shields_list_contains,hivekb_left)
+
+config SHIELD_HIVEKB_RIGHT
+    def_bool $(shields_list_contains,hivekb_right)
