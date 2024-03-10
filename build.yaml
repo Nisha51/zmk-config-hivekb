@@ -1,5 +1,5 @@
 include:
-  - board: hivekb
+  - board: seeeduino_xiao_ble
     shield: hivekb_left
-  - board: hivekb
+  - board: seeeduino_xiao_ble
     shield: hivekb_right
