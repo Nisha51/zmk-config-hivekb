@@ -1,6 +1,6 @@
 if SHIELD_HIVEKB_LEFT
 
-config ZMK_HIVEKB
+config ZMK_KEYBOARD_NAME
     default "HiveKB"
 
 config ZMK_SPLIT_ROLE_CENTRAL
