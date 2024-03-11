@@ -3,3 +3,5 @@ include:
     shield: hivekb_left
   - board: seeeduino_xiao_ble
     shield: hivekb_right
+  - board: seeeduino_xiao_ble
+    shield: hivekb rgbled_adapter
