@@ -8,37 +8,13 @@
 
         default_layer {
             bindings = <
-&kp ESC             &kp N1         &kp N2            &kp N3           &kp N4           &kp N5                            &kp N6            &kp N7           &kp N8               &kp N9               &kp N0            &kp GRAVE
-           &kp TAB          &kp Q             &kp W            &kp F            &kp P             &kp B       &kp J                 &kp L            &kp U            &kp Y                 &kp SEMI          &kp BSLH
-&kp LSHFT           &kp A          &kp R             &kp S            &kp T            &kp G                             &kp M             &kp N            &kp E                &kp I                &kp O             &kp APOS
-           &kp Z            &kp X             &kp C            &kp D            &kp V             &kp CAPS    &kp EQUAL             &kp K            &kp H            &kp COMMA             &kp DOT           &kp FSLH
-                                   &kp LCTRL         &kp LALT         &kp LGUI         &kp LSHFT                         &kp LSHFT         &kp BSPC         &kp RALT             &kp RCTRL
-                                                                                                  &mo 2       &mo 1
-                                                                                       &kp SPACE                         &kp ENTER
-            >;
-        };
-
-        layer_1 {
-            bindings = <
-&bt BT_CLR_ALL          &trans          &trans          &trans          &trans          &trans                    &trans          &trans          &trans          &trans          &trans          &trans
-                &trans          &trans          &trans          &trans          &trans          &trans    &trans          &trans          &trans          &trans          &trans          &trans
-&trans                  &trans          &trans          &trans          &trans          &trans                    &trans          &trans          &trans          &trans          &trans          &trans
-                &trans          &trans          &trans          &trans          &trans          &trans    &trans          &trans          &trans          &trans          &trans          &trans
-                                        &trans          &trans          &trans          &trans                    &trans          &trans          &trans          &trans
-                                                                                                &trans    &trans
-                                                                                        &trans                    &trans
-            >;
-        };
-
-        layer_2 {
-            bindings = <
-&trans          &trans          &trans          &trans          &trans          &trans                    &trans          &trans          &trans          &trans          &trans          &trans
-        &trans          &trans          &trans          &trans          &trans          &trans    &trans          &trans          &trans          &trans          &trans          &trans
-&trans          &trans          &trans          &trans          &trans          &trans                    &trans          &trans          &trans          &trans          &trans          &trans
-        &trans          &trans          &trans          &trans          &trans          &trans    &trans          &trans          &trans          &trans          &trans          &trans
-                                &trans          &trans          &trans          &trans                    &trans          &trans          &trans          &trans
-                                                                                        &trans    &trans
-                                                                                &trans                    &trans
+&kp ESC                  &kp N1            &kp N2               &kp N3           &kp N4         &kp N5                             &kp N6            &kp N7             &kp N8            &kp N9             &kp N0               &kp BSPC
+              &kp TAB               &kp X                &kp Q            &kp W          &kp F             &kp TILDE    &kp MINUS             &kp U          &kp Y               &kp J             &kp FSLH            &kp EQUAL
+&kp CAPSLOCK             &kp LSHFT         &kp A                &kp R            &kp S          &kp P                              &kp L             &kp E              &kp I             &kp O              &kp BSLH             &bt BT_CLR_ALL
+              &kp LCTRL             &kp Z                &kp V            &kp C          &kp T             &kp G        &kp M                 &kp N          &kp COMMA           &kp DOT           &kp SEMI            &kp SQT
+                                           &kp LEFT_GUI         &kp LALT         &kp D          &kp B                              &kp K             &kp H              &kp DEL           &kp INS
+                                                                                                           &kp LBKT     &kp RBKT
+                                                                                                &kp SPACE                          &kp ENTER
             >;
         };
     };
