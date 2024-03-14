@@ -8,13 +8,13 @@
 
         default_layer {
             bindings = <
-&kp ESC               &kp N1            &kp N2               &kp N3           &kp N4         &kp N5                                       &kp N6            &kp N7             &kp N8            &kp N9                  &kp N0                &kp MINUS
-           &kp TAB               &kp X                &kp Q            &kp W          &kp F             &kp CAPS    &kp NON_US_BACKSLASH             &kp U          &kp Y               &kp J             &kp BACKSPACE             &kp EQUAL
-&kp TILDE             &kp LSHFT         &kp A                &kp R            &kp S          &kp P                                        &kp L             &kp E              &kp I             &kp O                   &kp SLASH             &mo 1
-           &kp LCTRL             &kp Z                &kp V            &kp C          &kp T             &kp G       &kp M                            &kp N          &kp COMMA           &kp DOT           &kp SEMI                  &kp SQT
-                                        &kp LEFT_GUI         &kp LALT         &kp D          &kp B                                        &kp K             &kp H              &kp DEL           &kp INS
+&kp ESC               &kp N1            &kp N2               &kp N3           &kp N4         &kp N5                           &kp N6            &kp N7             &kp N8            &kp N9                  &kp N0                    &kp BACKSLASH
+           &kp TAB               &kp X                &kp Q            &kp W          &kp F             &kp CAPS    &mo 1                &kp U          &kp Y               &kp J             &kp BACKSPACE                 &kp MINUS
+&kp TILDE             &kp LSHFT         &kp A                &kp R            &kp S          &kp P                            &kp L             &kp E              &kp I             &kp O                   &kp SEMICOLON             &kp EQUAL
+           &kp LCTRL             &kp Z                &kp V            &kp C          &kp T             &kp G       &kp M                &kp N          &kp COMMA           &kp DOT           &kp SLASH                     &kp SQT
+                                        &kp LEFT_GUI         &kp LALT         &kp D          &kp B                            &kp K             &kp H              &kp DEL           &kp INS
                                                                                                         &kp LBKT    &kp RBKT
-                                                                                             &kp SPACE                                    &kp ENTER
+                                                                                             &kp SPACE                        &kp ENTER
             >;
         };
 
